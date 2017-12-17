@@ -129,7 +129,7 @@ public class Principal{
 		System.out.println(">>> Inicio dos testes <<< ");   		
 
 		//Execucao da rede
-		int res = Integer.parseInt(javax.swing.JOptionPane.showInputDialog("Deseja fazer teste (1 fazer ou 0 não fazer) : "));
+		int res = Integer.parseInt(javax.swing.JOptionPane.showInputDialog("Deseja fazer teste (1 fazer ou 0 nao fazer) : "));
 		
 		while (res != 0) {
 			int letra=Integer.parseInt(javax.swing.JOptionPane.showInputDialog("informe o numero do elemento a ser executado => "));
